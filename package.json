@@ -3,6 +3,7 @@
     "postinstall": "sh bin/heroku_install"
   },
   "dependencies": {
+    "bower": "*"
   },
   "cacheDirectories": [
     "frontend/node_modules",
