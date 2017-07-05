@@ -51,3 +51,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "ember-cli-rails"
 gem "active_model_serializers", "~> 0.10.2"
+
+gem 'rails_12factor', group: [:staging, :production]
