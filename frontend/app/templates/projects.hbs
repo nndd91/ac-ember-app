@@ -1,5 +1,7 @@
 <h1> Project </h1>
 
-{{#project-list item=model}}
+{{#each model as |project|}}
+  {{#project-list item=project}}
 
-{{/project-list}}
+  {{/project-list}}
+{{/each}}
